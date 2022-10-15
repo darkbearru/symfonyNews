@@ -1,4 +1,6 @@
-
+.idea
+.env
+.env.test
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -14,7 +16,5 @@
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
-###> symfony/phpunit-bridge ###
-.phpunit.result.cache
-/phpunit.xml
-###< symfony/phpunit-bridge ###
+/composer.lock
+/symfony.lock
