@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ title }} | {{ parent() }}{% endblock %}
+
+{% block body %}
+    <h1>{{ title }}</h1>
+    {% if list is defined %}
+        <ul>
+            {% for index, item in list %}
+                {{ include ('news/news-list-item.html.twig', item) }}
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
