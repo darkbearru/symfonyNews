@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\News;
+namespace App\Service\News;
 
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\InvalidArgumentException;

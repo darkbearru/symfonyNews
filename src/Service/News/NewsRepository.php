@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\News;
+namespace App\Service\News;
 
 class NewsRepository extends AbstractNewsRepository
 {
