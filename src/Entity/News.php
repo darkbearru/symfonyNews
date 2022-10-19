@@ -45,7 +45,7 @@ class News
     private ?int $flags = null;
 
     #[ORM\Column(nullable: true)]
-    private array $authors = [];
+    private array $author = [];
 
     #[ORM\Column(nullable: true)]
     private array $tags = [];
@@ -175,14 +175,14 @@ class News
         return $this;
     }
 
-    public function getAuthors(): array
+    public function getAuthor(): array
     {
-        return $this->authors;
+        return $this->author;
     }
 
-    public function setAuthors(?array $authors): self
+    public function setAuthor(?array $author): self
     {
-        $this->authors = $authors;
+        $this->author = $author;
 
         return $this;
     }
